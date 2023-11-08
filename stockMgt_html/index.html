@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+
+    <!-- Form to add new items -->
+    <form id="inventoryForm">
+        <input type="text" id="itemName" placeholder="Item Name" required>
+        <input type="number" id="itemQuantity" placeholder="Quantity" required>
+        <button type="submit">Add Item</button>
+    </form>
+
+    <!-- Displaying inventory items -->
+    <div id="inventoryList">
+        <!-- Inventory items will be listed here -->
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#inventoryForm {
+    margin: 20px;
+    text-align: center;
+}
+
+#inventoryForm input[type="text"],
+#inventoryForm input[type="number"] {
+    margin: 0 10px;
+}
+
+#inventoryList {
+    margin-top: 20px;
+}
