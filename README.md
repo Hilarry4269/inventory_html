@@ -1,2 +1,3 @@
 # inventory_html
-using local storage to store inventory
+a simple html app using local storage to store inventory
+html , css and javascript
